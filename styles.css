@@ -6,21 +6,24 @@
 .dropdown-content {
   display: none;
   position: absolute;
+  left: 0;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown:focus-within .dropdown-content {
+  display: block;
 }
 
 .dropdown-content a {
   display: block;
   padding: 10px 15px;
-  color: black;
-  background-color: darkorchid;
+  color: #e6e6fa;
+  /* lavender */
+  background-color: #9932cc;
+  /* darkorchid */
 }
 
 .dropdown-content a:hover {
-  background-color: blueviolet;
+  background-color: #8a2be2;
+  /* blueviolet */
 }
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-
